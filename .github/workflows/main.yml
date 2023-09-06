@@ -20,7 +20,7 @@ jobs:
         run: npm i -g yarn
 
       - name: Install dependencies
-        run: yarn ci
+        run: npm ci
 
       - name: Build Expo project
         run: expo build:android # Replace with the build command for your platform (e.g., expo build:android, expo build:ios, etc.)
