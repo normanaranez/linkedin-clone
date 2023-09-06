@@ -16,8 +16,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
 
-      - name: Setup Yarn
-        run: npm i -g yarn
+      - name: Setup Yarn & Expo cli
+        run: npm i -g yarn expo-cli
 
       - name: Install dependencies
         run: yarn ci
